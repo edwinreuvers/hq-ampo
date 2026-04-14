@@ -1,0 +1,20 @@
+---
+title: |
+  What is the influence of knee joint movement
+  on the maximal average mechanical power output
+  of human quadriceps femoris muscle?
+---
+
+::: {.callout-important}
+The manuscript of this project has not yet been peer-reviewed or formally published. Changes might be might throughout the peer-review process.
+:::
+
+This website presents the complete, reproducible workflow of our manuscript. The entire project was built using [Quarto](https://quarto.org), an open-source scientific and technical publishing system. By using Quarto, we seamlessly embedded all analysis, code, figures, tables, and results into a single, executable document. This approach ensures that every result in the manuscript is directly traceable to its source code and data, with no ambiguity about how it was produced. Interested readers can reproduce our results by rendering the Quarto project in its entirety.
+
+On this website, you’ll find:
+
+- 📂 [Data](data/readme.md) – Full access to the **raw and processed data** as well as **simulations results**
+- 🔬 [Analysis](analysis/readme.md) – A step-by-step walkthrough of the **analysis pipeline**
+- 📊 [Figures](figures/all_figures.ipynb) – Reproducible **code for all figures**
+- 📋 [Tables](tables/all_tables.ipynb) – Reproducible **code for all tables**
+- 📄 [Manuscript](manuscript/revision-clean.qmd) – Integrated version of the **manuscript**

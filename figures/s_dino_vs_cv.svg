@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="301.11935"
+   height="121.64085"
+   viewBox="0 0 301.11935 121.64085"
+   sodipodi:docname="s_dino_vs_cv.svg"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15">
+      <path
+         d="M 46.218751,30.968752 H 225.83953 V 90.639427 H 46.218751 Z"
+         id="path15" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="4.948204"
+     inkscape:cx="150.55968"
+     inkscape:cy="60.830152"
+     inkscape:window-width="2048"
+     inkscape:window-height="1067"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1">
+    <inkscape:page
+       x="0"
+       y="0"
+       inkscape:label="1"
+       id="page1"
+       width="301.11935"
+       height="121.64085"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <g
+     id="g1"
+     inkscape:groupmode="layer"
+     inkscape:label="1">
+    <path
+       id="path1"
+       d="M 0,0 H 225.83952 V 91.230636 H 0 Z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,121.64085)" />
+    <path
+       id="path2"
+       d="M 46.21875,30.96875 H 225.83952 V 90.639424 H 46.21875 Z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,121.64085)" />
+    <path
+       id="path3"
+       d="m 46.21875,30.96875 v -3.5"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,121.64085)" />
+    <text
+       id="text3"
+       xml:space="preserve"
+       transform="matrix(1.3333333,0,0,1.3333333,52.583333,100.09918)"><tspan
+         id="tspan3"
+         style="font-variant:normal;font-weight:normal;font-size:11px;font-family:'Myriad Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="0"
+         y="0">0.0</tspan></text>
+    <path
+       id="path4"
+       d="m 112.75246,30.96875 v -3.5"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,121.64085)" />
+    <text
+       id="text4"
+       xml:space="preserve"
+       transform="matrix(1.3333333,0,0,1.3333333,141.29494,100.09918)"><tspan
+         id="tspan4"
+         style="font-variant:normal;font-weight:normal;font-size:11px;font-family:'Myriad Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="0"
+         y="0">0.4</tspan></text>
+    <path
+       id="path5"
+       d="m 179.28617,30.96875 v -3.5"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,121.64085)" />
+    <text
+       id="text5"
+       xml:space="preserve"
+       transform="matrix(1.3333333,0,0,1.3333333,230.00656,100.09918)"><tspan
+         id="tspan5"
+         style="font-variant:normal;font-weight:normal;font-size:11px;font-family:'Myriad Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="0"
+         y="0">0.8</tspan></text>
+    <path
+       id="path6"
+       d="m 79.485604,30.96875 v -2"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,121.64085)" />
+    <path
+       id="path7"
+       d="m 146.01931,30.96875 v -2"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,121.64085)" />
+    <path
+       id="path8"
+       d="m 212.55302,30.96875 v -2"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,121.64085)" />
+    <text
+       id="text8"
+       xml:space="preserve"
+       transform="matrix(1.3333333,0,0,1.3333333,166.21593,118.74502)"><tspan
+         id="tspan8"
+         style="font-variant:normal;font-weight:normal;font-size:11px;font-family:'Myriad Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="0"
+         y="0">Time</tspan></text>
+    <path
+       id="path9"
+       d="m 46.21875,34.283787 h -3.5"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,121.64085)" />
+    <text
+       id="text9"
+       xml:space="preserve"
+       transform="matrix(1.3333333,0,0,1.3333333,34.208333,81.137465)"><tspan
+         id="tspan9"
+         style="font-variant:normal;font-weight:normal;font-size:11px;font-family:'Myriad Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="0"
+         y="0">0.2</tspan></text>
+    <path
+       id="path10"
+       d="m 46.21875,60.804087 h -3.5"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,121.64085)" />
+    <text
+       id="text10"
+       xml:space="preserve"
+       transform="matrix(1.3333333,0,0,1.3333333,34.208333,45.777066)"><tspan
+         id="tspan10"
+         style="font-variant:normal;font-weight:normal;font-size:11px;font-family:'Myriad Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="0"
+         y="0">1.0</tspan></text>
+    <path
+       id="path11"
+       d="m 46.21875,87.324386 h -3.5"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,121.64085)" />
+    <text
+       id="text11"
+       xml:space="preserve"
+       transform="matrix(1.3333333,0,0,1.3333333,34.208333,10.416667)"><tspan
+         id="tspan11"
+         style="font-variant:normal;font-weight:normal;font-size:11px;font-family:'Myriad Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="0"
+         y="0">1.8</tspan></text>
+    <path
+       id="path12"
+       d="m 46.21875,47.543937 h -2"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,121.64085)" />
+    <path
+       id="path13"
+       d="m 46.21875,74.064237 h -2"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,121.64085)" />
+    <text
+       id="text13"
+       xml:space="preserve"
+       transform="matrix(0,-1.3333333,1.3333333,0,10.208333,73.110399)"><tspan
+         id="tspan13"
+         style="font-variant:normal;font-weight:normal;font-size:11px;font-family:'Myriad Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="0"
+         y="0">Knee joint </tspan></text>
+    <text
+       id="text14"
+       xml:space="preserve"
+       transform="matrix(0,-1.3333333,1.3333333,0,25.8125,75.016649)"><tspan
+         id="tspan14"
+         style="font-variant:normal;font-weight:normal;font-size:11px;font-family:'Myriad Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="0"
+         y="0"> angle [rad]</tspan></text>
+    <path
+       id="path14"
+       d="m 46.21875,87.324386 1.977806,-0.117174 1.977807,-0.351523 1.977806,-0.585871 1.977806,-0.820221 1.977806,-1.054569 2.517208,-1.624608 69.942421,-46.097427 1.97781,-0.941038 1.9778,-0.70669 1.97781,-0.472341 1.97781,-0.237993 1.9778,-0.0036 1.97781,0.230705 1.9778,0.465054 1.97781,0.699402 1.97781,0.933751 1.9778,1.168099 4.13542,2.841684 63.8292,43.954217 1.97781,1.01196 1.9778,0.777612 1.97781,0.543262 1.9778,0.308914 1.61821,0.07844 v 0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,121.64085)"
+       clip-path="url(#clipPath15)" />
+    <path
+       id="path16"
+       d="M 46.21875,87.324386 137.55744,34.3193 225.83952,87.324386 v 0"
+       style="fill:none;stroke:#ff7f0e;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:3.7, 1.6;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,121.64085)"
+       clip-path="url(#clipPath15)" />
+    <path
+       id="path17"
+       d="M 46.21875,30.96875 V 90.639424"
+       style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,121.64085)" />
+    <path
+       id="path18"
+       d="M 46.21875,30.96875 H 225.83952"
+       style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,121.64085)" />
+    <path
+       id="path19"
+       d="m 197.11108,51.311607 h 3.6652 3.6652"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,121.64085)" />
+    <text
+       id="text19"
+       xml:space="preserve"
+       transform="matrix(1.3333333,0,0,1.3333333,278.6973,57.50144)"><tspan
+         id="tspan19"
+         style="font-variant:normal;font-weight:normal;font-size:9.163px;font-family:'Myriad Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="0"
+         y="0">exp</tspan></text>
+    <path
+       id="path20"
+       d="m 197.11108,41.166507 h 3.6652 3.6652"
+       style="fill:none;stroke:#ff7f0e;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:3.7, 1.6;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,121.64085)" />
+    <text
+       id="text20"
+       xml:space="preserve"
+       transform="matrix(1.3333333,0,0,1.3333333,278.6973,71.02824)"><tspan
+         id="tspan20"
+         style="font-variant:normal;font-weight:normal;font-size:9.163px;font-family:'Myriad Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="0"
+         y="0">sim</tspan></text>
+  </g>
+</svg>

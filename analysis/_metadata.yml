@@ -1,0 +1,6 @@
+ execute:
+  eval: false  
+
+  format:
+    html:
+      code-fold: false 

@@ -1,0 +1,7 @@
+---
+pagetitle: "404 error"
+---
+
+## Four oh four!
+
+You entered a page that does not exist.

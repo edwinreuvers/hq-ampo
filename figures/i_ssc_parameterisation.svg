@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="300.29413"
+   height="181.02408"
+   viewBox="0 0 300.29413 181.02408"
+   sodipodi:docname="i_ssc_parameterisation.svg"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4">
+      <path
+         d="M 25.193873,35.97287 H 225.2206 v 99.79519 H 25.193873 Z"
+         id="path4" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="4.7728458"
+     inkscape:cx="150.22484"
+     inkscape:cy="90.512038"
+     inkscape:window-width="2048"
+     inkscape:window-height="1067"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1">
+    <inkscape:page
+       x="0"
+       y="0"
+       inkscape:label="1"
+       id="page1"
+       width="300.29413"
+       height="181.02408"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <g
+     id="g1"
+     inkscape:groupmode="layer"
+     inkscape:label="1">
+    <path
+       id="path1"
+       d="M 0,0 H 225.22059 V 135.76806 H 0 Z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,181.02408)" />
+    <path
+       id="path2"
+       d="M 25.193873,35.972871 H 225.22059 V 135.76806 H 25.193873 Z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,181.02408)" />
+    <path
+       id="path3"
+       d="M 25.193873,35.972871 V 135.76806"
+       style="fill:none;stroke:#eeeeee;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:3.7, 1.6;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,181.02408)"
+       clip-path="url(#clipPath4)" />
+    <path
+       id="path5"
+       d="M 149.01993,35.972871 V 135.76806"
+       style="fill:none;stroke:#eeeeee;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:3.7, 1.6;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,181.02408)" />
+    <path
+       id="path6"
+       d="M 215.69551,35.972871 V 135.76806"
+       style="fill:none;stroke:#eeeeee;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:3.7, 1.6;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,181.02408)" />
+    <path
+       id="path7"
+       d="m 25.193873,131.42914 0.953461,-0.10869 0.953462,-0.32607 0.953462,-0.54345 10.67877,-7.66737 108.313242,-77.667119 0.95346,-0.341287 0.95346,-0.123907 0.95346,0.09347 0.95347,0.310855 0.95346,0.528234 1.14415,0.920825 1.14416,1.233852 1.33484,1.812219 55.49147,79.161178 1.14415,1.14777 1.14416,0.83474 0.95346,0.4565 0.95346,0.23912 0.57208,0.0391 v 0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,181.02408)"
+       clip-path="url(#clipPath4)" />
+    <path
+       id="path8"
+       d="m 25.193873,128.31166 c 0,-26.84765 0,-53.69531 0,-80.542968"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,181.02408)" />
+    <path
+       id="path9"
+       d="m 22.993873,123.91167 2.2,4.39999 2.2,-4.39999"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,181.02408)" />
+    <path
+       id="path10"
+       d="m 27.393873,52.168692 -2.2,-4.4 -2.2,4.4"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,181.02408)" />
+    <text
+       id="text10"
+       xml:space="preserve"
+       transform="matrix(0,-1.3333333,1.3333333,0,10.416667,110.99168)"><tspan
+         id="tspan10"
+         style="font-variant:normal;font-weight:normal;font-size:11px;font-family:'Myriad Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="0"
+         y="0">CE/MTC length </tspan></text>
+    <text
+       id="text11"
+       xml:space="preserve"
+       transform="matrix(0,-1.3333333,1.3333333,0,25.979167,118.27293)"><tspan
+         id="tspan11"
+         style="font-variant:normal;font-weight:normal;font-size:11px;font-family:'Myriad Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="0"
+         y="0"> or joint excursion</tspan></text>
+    <path
+       id="path11"
+       d="m 28.31093,40.311793 c 39.198159,0 78.39632,0 117.59448,0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,181.02408)" />
+    <path
+       id="path12"
+       d="m 32.71093,38.111793 -4.4,2.2 4.4,2.2"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,181.02408)" />
+    <path
+       id="path13"
+       d="m 141.50541,42.511793 4.4,-2.2 -4.4,-2.2"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,181.02408)" />
+    <text
+       id="text13"
+       xml:space="preserve"
+       transform="matrix(1.3333333,0,0,1.3333333,100.80921,140.94643)"><tspan
+         id="tspan13"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-size:11px;font-family:'Minion Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="0"
+         y="0">T</tspan><tspan
+         id="tspan14"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-size:7.7px;font-family:'Minion Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="6.6329956"
+         y="1.48125">short</tspan></text>
+    <path
+       id="path14"
+       d="m 152.13612,40.311793 c 20.14664,0 40.29328,0 60.43992,0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,181.02408)" />
+    <path
+       id="path15"
+       d="m 156.53612,38.111793 -4.4,2.2 4.4,2.2"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,181.02408)" />
+    <path
+       id="path16"
+       d="m 208.17604,42.511793 4.4,-2.2 -4.4,-2.2"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,181.02408)" />
+    <text
+       id="text16"
+       xml:space="preserve"
+       transform="matrix(1.3333333,0,0,1.3333333,225.8103,140.94643)"><tspan
+         id="tspan16"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-size:11px;font-family:'Minion Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="0"
+         y="0">T</tspan><tspan
+         id="tspan17"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-size:7.7px;font-family:'Minion Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="6.6329956"
+         y="1.48125">length</tspan></text>
+    <text
+       id="text17"
+       xml:space="preserve"
+       transform="matrix(1.3333333,0,0,1.3333333,14.436121,164.00358)"><tspan
+         id="tspan18"
+         style="font-variant:normal;font-weight:normal;font-size:9.96264px;font-family:'Myriad Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="0"
+         dx="0 -0.18931448 -0.089678347 0.0099583799"
+         y="0">Cycle</tspan><tspan
+         id="tspan19"
+         style="font-variant:normal;font-weight:normal;font-size:9.96264px;font-family:'Myriad Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="-10.017427"
+         dx="0 0.00996082 -0.089680791 0 0 0.019909469 0 0 0.1892786"
+         y="10.5736">frequency</tspan><tspan
+         id="tspan20"
+         style="font-variant:normal;font-weight:normal;font-size:10.9589px;font-family:MnSymbol10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="34.700195"
+         y="5.6159945">=</tspan><tspan
+         id="tspan21"
+         style="font-variant:normal;font-weight:normal;font-size:7.6712px;font-family:'Minion Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="66.133026"
+         y="1.1588167">1</tspan><tspan
+         id="tspan22"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-size:7.6712px;font-family:'Minion Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="44.878761"
+         y="9.5862131">T</tspan><tspan
+         id="tspan23"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-size:5.47945px;font-family:'Minion Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="49.438751"
+         dx="0 0.48217732 0.39998931 0.33421057 0.65203488"
+         y="10.945451">short</tspan><tspan
+         id="tspan24"
+         style="font-variant:normal;font-weight:normal;font-size:7.6712px;font-family:MnSymbol7;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="62.977882"
+         y="9.5862131">+</tspan><tspan
+         id="tspan25"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-size:7.6712px;font-family:'Minion Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="68.312782"
+         y="9.5862131">T</tspan><tspan
+         id="tspan26"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-size:5.47945px;font-family:'Minion Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="73.037163"
+         dx="0 0.86025208 0.60819668 0.59726286 0.6903882 0.49861032"
+         y="10.945451">length</tspan></text>
+    <path
+       id="path26"
+       d="m 55.399021,9.702872 h 45.730399 v 0.492872 H 55.399021 Z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,181.02408)" />
+    <text
+       id="text26"
+       xml:space="preserve"
+       transform="matrix(1.3333333,0,0,1.3333333,190.31083,170.04391)"><tspan
+         id="tspan27"
+         style="font-variant:normal;font-weight:normal;font-size:9.96264px;font-family:'Myriad Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="0"
+         y="0">FTS</tspan><tspan
+         id="tspan28"
+         style="font-variant:normal;font-weight:normal;font-size:10.9589px;font-family:MnSymbol10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="17.360252"
+         y="0">=</tspan><tspan
+         id="tspan29"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-size:7.6712px;font-family:'Minion Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="41.201042"
+         y="-4.9916115">T</tspan><tspan
+         id="tspan30"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-size:5.47945px;font-family:'Minion Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="45.761028"
+         dx="0 0.48217732 0.39998931 0.33421057 0.65203488"
+         y="-3.6323748">short</tspan><tspan
+         id="tspan31"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-size:7.6712px;font-family:'Minion Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="27.538818"
+         y="3.9702191">T</tspan><tspan
+         id="tspan32"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-size:5.47945px;font-family:'Minion Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="32.098808"
+         dx="0 0.48217732 0.39998931 0.33421057 0.65203488"
+         y="5.3294559">short</tspan><tspan
+         id="tspan33"
+         style="font-variant:normal;font-weight:normal;font-size:7.6712px;font-family:MnSymbol7;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="45.637939"
+         y="3.9702191">+</tspan><tspan
+         id="tspan34"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-size:7.6712px;font-family:'Minion Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="50.972839"
+         y="3.9702191">T</tspan><tspan
+         id="tspan35"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-size:5.47945px;font-family:'Minion Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="55.697216"
+         dx="0 0.86025208 0.60819668 0.59726286 0.6903882 0.49861032"
+         y="5.3294559">length</tspan></text>
+    <path
+       id="path35"
+       d="m 169.96511,10.788621 h 45.7304 v 0.492873 h -45.7304 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,181.02408)" />
+  </g>
+</svg>

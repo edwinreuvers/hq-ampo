@@ -1,0 +1,459 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  11pt,
+  a4paper]{article}
+\usepackage{xcolor}
+\usepackage[left=1in,top=1in,right=1in,bottom=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\usepackage{longtable,booktabs,array}
+\newcounter{none} % for unnumbered tables
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+% definitions for citeproc citations
+\NewDocumentCommand\citeproctext{}{}
+\NewDocumentCommand\citeproc{mm}{%
+  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
+\makeatletter
+ % allow citations to break across lines
+ \let\@cite@ofmt\@firstofone
+ % avoid brackets around text for \cite:
+ \def\@biblabel#1{}
+ \def\@cite#1#2{{#1\if@tempswa , #2\fi}}
+\makeatother
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry-spacing
+ {\begin{list}{}{%
+  \setlength{\itemindent}{0pt}
+  \setlength{\leftmargin}{0pt}
+  \setlength{\parsep}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+   \setlength{\leftmargin}{\cslhangindent}
+   \setlength{\itemindent}{-1\cslhangindent}
+  \fi
+  % set entry spacing
+  \setlength{\itemsep}{#2\baselineskip}}}
+ {\end{list}}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+\usepackage{iftex}
+
+% % Minion Pro
+% \usepackage[lf]{MinionPro}
+% \usepackage{MyriadPro}
+
+% IBM Plex
+% \usepackage{fontspec}
+% \usepackage{unicode-math}
+% \setmainfont{IBM Plex Serif}
+% \setsansfont{IBM Plex Sans}
+% \setmonofont{IBM Plex Mono}
+% \setmathfont{IBM Plex Math Beta 240212}
+
+% STIX Two
+% \usepackage{fontspec}
+% \setmainfont{Stix Two Text}
+% \setmathfont{Stix Two Math}
+% \setsansfont[Scale=0.9608140457]{Fira Sans} % 7.2489/7.54454
+
+% Libertinus Serif + Libertinus Math + Source Sans Pro + Source Code Pro
+\ifPDFTeX
+\usepackage[mono=false,osf]{libertine}
+\usepackage[libertine]{newtxmath}
+% \usepackage[scale=1,osf]{sourcesanspro} % 7.1832/7.1832
+% \usepackage[scale=0.8772671637]{sourcecodepro} % 7.1832/7.36934*0.9
+\usepackage[scale=0.9181263229,osf]{roboto} % 7.1832/7.82376
+\usepackage[scale=0.8132241635]{roboto-mono} % 7.1832/7.94969*0.9
+\else
+\usepackage[mono=false,osf]{libertine}
+\setmathfont[Scale=MatchUppercase]{libertinusmath-regular.otf}
+% \usepackage[scale=0.9850312868,osf]{sourcesanspro} % 7.2051/7.31459
+% \usepackage[scale=0.8865281581]{sourcecodepro} % 7.2051/7.31459*0.9
+\usepackage[scale=0.9126225152,osf]{roboto} % 7.2051/7.89494
+\usepackage[scale=0.8213602637]{roboto-mono} % 7.2051/7.89494*0.9
+\fi
+
+% Enable section and paragraph numbering
+\setcounter{secnumdepth}{4} % Numbering down to paragraph level
+\setcounter{tocdepth}{4} % Include paragraphs in the ToC
+
+%%% CUSTOMIZE SECTION SIZES
+\makeatletter
+\renewcommand{\section}{%
+  \@startsection{section}{1}
+    {0pt} 					% indent
+    {1.0em plus 0.2em minus 0.2em} 	% beforeskip
+    {0.001em plus 0.001em minus 0.001em}    	% afterskip
+    {\Large\bfseries\sffamily}%
+}
+\renewcommand{\subsection}{%
+  \@startsection{subsection}{2}
+    {0pt} 					% indent
+    {1.0em plus 0.2em minus 0.2em} 	% beforeskip
+    {0.001em plus 0.001em minus 0.001em}    	% afterskip
+    {\large\bfseries\sffamily}%
+}
+\renewcommand{\subsubsection}{%
+  \@startsection{subsubsection}{3}
+    {0pt} 					% indent
+    {1.0em plus 0.2em minus 0.2em} 	% beforeskip
+    {0.001em plus 0.001em minus 0.001em}    	% afterskip
+    {\normalsize\bfseries\sffamily}%
+}
+\renewcommand{\paragraph}{%
+  \@startsection{paragraph}{4}
+    {0pt} 					% indent
+    {1.0em plus 0.2em minus 0.2em} 	% beforeskip
+    {0.001em plus 0.001em minus 0.001em}    	% afterskip
+    {\normalsize\bfseries\sffamily}%
+}
+\makeatother
+
+%%% GENERAL PACKAGES
+\usepackage{hyphenat} % don't hyphenat titles
+\usepackage{graphicx}
+\usepackage{tabularx} 
+\usepackage{marvosym} % Mail logo
+\usepackage{enumitem} % Enumerate items (list)
+\usepackage{amsmath} % for enhanced math features
+\usepackage[labelfont=bf,justification=justified,singlelinecheck=false]{caption} % Figures caption setup
+\usepackage[rightcaption]{sidecap} % figure with sidecaption
+\usepackage[]{lineno} % Line numbers
+\usepackage{ragged2e} % justify
+\usepackage{array}
+\usepackage{lscape} % landscape tables
+\usepackage{rotating} % landscape tables
+\usepackage{bm} % bold math
+
+%%%% ORCID LOGO
+\usepackage{academicons}
+\definecolor{orcidlogocol}{HTML}{A6CE39}
+\usepackage{orcidlink}
+
+%%%% LAYOUT 
+\tolerance=200
+\emergencystretch=2em
+\hyphenpenalty=1000
+\hbadness=2000
+\widowpenalty=1000 % widow penalty
+\clubpenalty=1000 % orphans penalty
+\renewcommand{\baselinestretch}{1.3333333333333333333333333333} % line spacing
+
+\renewcommand{\arraystretch}{1.3333}
+\makeatletter
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{plain}
+\@ifundefined{c@chapter}{\newfloat{appfig}{h}{loappfig}}{\newfloat{appfig}{h}{loappfig}[chapter]}
+\floatname{appfig}{Figure A}
+\newcommand*\quartoappfigref[1]{Figure \hyperref[#1]{A\ref{#1}}}
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\DeclareCaptionLabelFormat{quartoappfigreflabelformat}{#1#2}
+\captionsetup[appfig]{labelformat=quartoappfigreflabelformat}
+\newcommand*\listofappfigs{\listof{appfig}{List of Appendix Figures}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={What is the influence of knee joint movement on the maximal average mechanical power output of human quadriceps femoris muscle?},
+  pdfauthor={Edwin D.H.M. Reuvers; A.J. `Knoek' van Soest; Dinant A. Kistemaker},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{What is the influence of knee joint movement on the maximal
+average mechanical power output of human quadriceps femoris muscle?}
+\author{Edwin D.H.M. Reuvers \and A.J. `Knoek' van Soest \and Dinant A.
+Kistemaker}
+\date{2026-04-13}
+\begin{document}
+
+\begin{titlepage}
+% This is a combination of Pandoc templating and LaTeX
+% Pandoc templating https://pandoc.org/MANUAL.html#templates
+% See the README for help
+\begin{titlepage}
+
+\raggedright
+% Title and subtitle
+{\sffamily\LARGE\bfseries\nohyphens{What is the influence of knee joint
+movement on the maximal average mechanical power output of human
+quadriceps femoris muscle?}}\\[2\baselineskip]
+
+
+% Authors
+% This hairy bit of code is just to get "and" between the last 2 authors.
+	    \mbox{\normalsize{Edwin D.H.M.
+Reuvers}\textsuperscript{1}\textsuperscript{,}{\textsuperscript{ \Letter}} \orcidlink{https://orcid.org/0000-0001-8932-1959},}
+  % Below is nice format,  but then it gives spaces where I do not want it!
+	%  	\mbox{{\normalsize{Edwin D.H.M. Reuvers}}
+	% 		% 		% 	  \textsuperscript{1}
+	% 		% 		% 	  	% 	    \textsuperscript{,}
+	% 	  {\textsuperscript{ \Letter}}
+	% 		% 		% 	  \orcidlink{https://orcid.org/0000-0001-8932-1959}
+	% 	}
+	    \mbox{\normalsize{A.J. `Knoek' van Soest}\textsuperscript{1},}
+  % Below is nice format,  but then it gives spaces where I do not want it!
+	%  	\mbox{{\normalsize{A.J. `Knoek' van Soest}}
+	% 		% 		% 	  \textsuperscript{1}
+	% 		% 		% 	}
+				\mbox{and \normalsize{Dinant A.
+Kistemaker}\textsuperscript{1} \orcidlink{https://orcid.org/0000-0003-1535-009X}}
+		% Below is nice format,  but then it gives spaces where I do not want it!
+		% \mbox{
+		%  and \normalsize{Dinant A. Kistemaker}
+		% 		% 		%   \textsuperscript{1}
+		% 		% 		% 		%   \orcidlink{https://orcid.org/0000-0003-1535-009X}, 
+		% 		% }
+	
+\vspace{0.5\baselineskip}
+
+%%%%%% Affiliations & Corresponding author
+  \begin{enumerate}[label={~\arabic*}, leftmargin=*, align=left, labelsep=0em, nosep]
+  %
+  
+                  \item[\small\textsuperscript{1}]
+        \small{Faculty of Behavioural and Movement Sciences, Vrije
+Universiteit Amsterdam, Amsterdam Movement Sciences, The Netherlands,}
+        \small{Department of Human Movement Sciences}
+            
+  \vspace{0.5\baselineskip}
+  
+            \item[\small\textsuperscript{\Letter}]
+      \small{Corresponding author:~Edwin D.H.M.
+Reuvers (\href{mailto:edwin.reuvers.academia@pm.me}{edwin.reuvers.academia@pm.me})}
+                    \end{enumerate}
+
+\vspace{1\baselineskip}
+
+%%%%%% Project website
+  \small{Access the code and full analysis notebook at \url{https://edwinreuvers.github.io/publications/hq-ampo}}
+
+\vspace{1\baselineskip}
+
+%%%%%% Abstract
+  \begin{abstract}
+    \justifying
+    Performance during motor activities such as wheelchair riding,
+    cycling, rowing and speed skating, depends critically on the average
+    mechanical power output (AMPO) produced by the muscles. To maximise
+    short-duration performance, limb movements should allow muscles to
+    deliver maximal AMPO. However, it is unclear which movement
+    maximises AMPO of human muscle. In this study, we employed a
+    Hill-type muscle-tendon-complex (MTC) model to predict the maximally
+    attainable AMPO of human \emph{m. quadriceps femoris} for various
+    imposed periodic knee joint movements. Based on these predictions,
+    we selected one set of conditions predicted to yield identical
+    maximally attainable AMPO despite substantial variations in knee
+    joint movements and another set of conditions predicted to yield
+    substantial variations in maximally attainable AMPO. In the
+    experiment, periodic knee joint movements were fully imposed by a
+    knee dynamometer. Participants were instructed to maximise AMPO and,
+    to this end, received visual feedback on their cumulative mechanical
+    work throughout each cycle. Experimental data closely matched
+    predictions derived from the Hill-type MTC model, confirming the
+    validity of the model. Model predictions showed a substantial
+    influence of knee joint movement on the maximally attainable AMPO.
+    Specifically, predictions revealed a strong interaction between
+    cycle frequency and knee joint excursion: increasing one
+    necessitates a decrease in the other to maximise AMPO. Even more
+    interestingly, \emph{m. quadriceps femoris} should spend about 80\%
+    of the cycle duration while shortening, independent of cycle
+    frequency and/or knee joint excursion.
+  \end{abstract}
+
+\vfill
+\vspace{0.1\textheight}
+\end{titlepage}\end{titlepage}
+
+\linenumbers
+
+\section{Introduction}\label{introduction}
+
+Empty
+
+Grieve et al. (\citeproc{ref-grieve_prediction_1978}{1978})
+
+NOT HTML
+
+\section*{Acknowledgments}\label{acknowledgments}
+\addcontentsline{toc}{section}{Acknowledgments}
+
+Tester
+
+\section{Appendix}\label{appendix}
+
+\subsection{Appendix 1}\label{appendix-1}
+
+\subsection{Appendix 2}\label{appendix-2}
+
+\section{Appendix}\label{appendix-3}
+
+\subsection{Appendix 1}\label{appendix-1-1}
+
+\section*{References}\label{references}
+\addcontentsline{toc}{section}{References}
+
+\protect\phantomsection\label{refs}
+\begin{CSLReferences}{1}{1}
+\bibitem[\citeproctext]{ref-grieve_prediction_1978}
+\textbf{Grieve, D. W., Pheasant, S. and Cavanagh, P. R.} (1978).
+Prediction of gastrocnemius length from knee and ankle joint posture. In
+\emph{Biomechanics {VI}-{A}} (ed. Asmussen, E.) and Jorgensen, K.), pp.
+405--412. Baltimore: University Park Press.
+
+\end{CSLReferences}
+
+
+
+
+\end{document}

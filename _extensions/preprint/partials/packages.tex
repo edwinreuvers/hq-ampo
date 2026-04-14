@@ -1,0 +1,103 @@
+\usepackage{iftex}
+
+% % Minion Pro
+% \usepackage[lf]{MinionPro}
+% \usepackage{MyriadPro}
+
+% IBM Plex
+% \usepackage{fontspec}
+% \usepackage{unicode-math}
+% \setmainfont{IBM Plex Serif}
+% \setsansfont{IBM Plex Sans}
+% \setmonofont{IBM Plex Mono}
+% \setmathfont{IBM Plex Math Beta 240212}
+
+% STIX Two
+% \usepackage{fontspec}
+% \setmainfont{Stix Two Text}
+% \setmathfont{Stix Two Math}
+% \setsansfont[Scale=0.9608140457]{Fira Sans} % 7.2489/7.54454
+
+% Libertinus Serif + Libertinus Math + Source Sans Pro + Source Code Pro
+\ifPDFTeX
+\usepackage[mono=false,osf]{libertine}
+\usepackage[libertine]{newtxmath}
+% \usepackage[scale=1,osf]{sourcesanspro} % 7.1832/7.1832
+% \usepackage[scale=0.8772671637]{sourcecodepro} % 7.1832/7.36934*0.9
+\usepackage[scale=0.9181263229,osf]{roboto} % 7.1832/7.82376
+\usepackage[scale=0.8132241635]{roboto-mono} % 7.1832/7.94969*0.9
+\else
+\usepackage[mono=false,osf]{libertine}
+\setmathfont[Scale=MatchUppercase]{libertinusmath-regular.otf}
+% \usepackage[scale=0.9850312868,osf]{sourcesanspro} % 7.2051/7.31459
+% \usepackage[scale=0.8865281581]{sourcecodepro} % 7.2051/7.31459*0.9
+\usepackage[scale=0.9126225152,osf]{roboto} % 7.2051/7.89494
+\usepackage[scale=0.8213602637]{roboto-mono} % 7.2051/7.89494*0.9
+\fi
+
+% Enable section and paragraph numbering
+\setcounter{secnumdepth}{4} % Numbering down to paragraph level
+\setcounter{tocdepth}{4} % Include paragraphs in the ToC
+
+%%% CUSTOMIZE SECTION SIZES
+\makeatletter
+\renewcommand{\section}{%
+  \@startsection{section}{1}
+    {0pt} 					% indent
+    {1.0em plus 0.2em minus 0.2em} 	% beforeskip
+    {0.001em plus 0.001em minus 0.001em}    	% afterskip
+    {\Large\bfseries\sffamily}%
+}
+\renewcommand{\subsection}{%
+  \@startsection{subsection}{2}
+    {0pt} 					% indent
+    {1.0em plus 0.2em minus 0.2em} 	% beforeskip
+    {0.001em plus 0.001em minus 0.001em}    	% afterskip
+    {\large\bfseries\sffamily}%
+}
+\renewcommand{\subsubsection}{%
+  \@startsection{subsubsection}{3}
+    {0pt} 					% indent
+    {1.0em plus 0.2em minus 0.2em} 	% beforeskip
+    {0.001em plus 0.001em minus 0.001em}    	% afterskip
+    {\normalsize\bfseries\sffamily}%
+}
+\renewcommand{\paragraph}{%
+  \@startsection{paragraph}{4}
+    {0pt} 					% indent
+    {1.0em plus 0.2em minus 0.2em} 	% beforeskip
+    {0.001em plus 0.001em minus 0.001em}    	% afterskip
+    {\normalsize\bfseries\sffamily}%
+}
+\makeatother
+
+%%% GENERAL PACKAGES
+\usepackage{hyphenat} % don't hyphenat titles
+\usepackage{graphicx}
+\usepackage{tabularx} 
+\usepackage{marvosym} % Mail logo
+\usepackage{enumitem} % Enumerate items (list)
+\usepackage{amsmath} % for enhanced math features
+\usepackage[labelfont=bf,justification=justified,singlelinecheck=false]{caption} % Figures caption setup
+\usepackage[rightcaption]{sidecap} % figure with sidecaption
+\usepackage[]{lineno} % Line numbers
+\usepackage{ragged2e} % justify
+\usepackage{array}
+\usepackage{lscape} % landscape tables
+\usepackage{rotating} % landscape tables
+\usepackage{bm} % bold math
+
+%%%% ORCID LOGO
+\usepackage{academicons}
+\definecolor{orcidlogocol}{HTML}{A6CE39}
+\usepackage{orcidlink}
+
+%%%% LAYOUT 
+\tolerance=200
+\emergencystretch=2em
+\hyphenpenalty=1000
+\hbadness=2000
+\widowpenalty=1000 % widow penalty
+\clubpenalty=1000 % orphans penalty
+\renewcommand{\baselinestretch}{1.3333333333333333333333333333} % line spacing
+

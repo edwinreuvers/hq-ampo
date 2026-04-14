@@ -1,0 +1,12 @@
+{
+  "hash": "f5962f0a320d0136fcd403e65aeae0e2",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: Measurements against predictions\nformat:\n  html:\n    css: |\n      dt {\n        font-weight: 400;\n      }\n---\n\n#| linestretch: 1.5\n\nThis script computes the results of the section 'Measured AMPO closely matched \npredicted maximally attainable AMPO'. \n\nFor this, it computes:\n    \n-   Percent difference between the highest and second highest AMPO within one condition\n-   Percent difference between the maximum AMPO of repeated conditions\n-   Measured AMPO per participant and condition\n-   Standardized z-scores of predicted and measured AMPO\n-   Linear regression between predicted and measured AMPO (both normalised and z-scored)\n-   Squared Pearson correlation coefficient (r²) for both normalised and z-scored AMPO\n    \nCustom functions used:\n    \n-   kinetics.compute_work(phi, torque, phase, part, iCycles) : <br>\n    Computes net, positive, and negative mechanical work per cycle or per phase\n-   stats.pdiff(value1, value2) : <br>\n    Computes percent difference between two values\n-   stats.zscore(array, axis) : <br>\n    Standardizes array to z-score along the specified axis\n-   kinetics.compute_work(phi, torque, phase, part, iCycles)\n    : Computes net, positive, and negative mechanical work per cycle or per phase\n\n",
+    "supporting": [
+      "tst_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

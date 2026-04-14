@@ -1,0 +1,40 @@
+project:
+  type: manuscript
+  output-dir: ../_site/manuscript
+latex-tinytex: false
+pdf-engine: pdflatex
+code-fold: true
+code-tools: false
+
+format:
+  preprint-pdf: 
+    keep-tex: true
+  html:
+    toc-depth: 3
+    number-sections: false
+    default-image-extension: svg
+    include-in-header: ../_resources/mathjax.html
+
+format-links:
+  - text: Preprint
+    href: https://doi.org/10.1101/2025.11.23.689993
+    icon: pencil-square
+  # - format: prerint-pdf
+  #  text: Revision
+  #  icon: file-earmark-check
+  # - text: Journal version
+  #   href: https://quarto.org
+  #   icon: file-earmark-text
+
+execute:
+  eval: true
+  output: false
+
+notebook-view:
+- title: "Figures"
+  notebook: ../figures/all_figures.ipynb
+  url: "../figures/all_figures.html"
+- title: "Tables"
+  notebook: ../tables/all_tables.ipynb
+  url: "../tables/all_tables.html"
+  

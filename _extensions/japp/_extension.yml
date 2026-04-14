@@ -1,0 +1,11 @@
+title: Journal of Applied Physiology template
+author: Edwin D.H.M. Reuvers
+version: 1.0.0
+contributes:
+  formats:
+    common:
+      csl: vancouver-nlm.csl
+    docx: 
+      reference-doc: aps-template.docx
+      default-image-extension: svg
+      csl: vancouver-nlm.csl

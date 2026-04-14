@@ -1,0 +1,47 @@
+---
+title: "Custom modules"
+execute:
+  eval: false
+---
+
+This page contains all code of the custom modules developed for the manuscript. 
+
+## derive_predictions
+```{python}
+{{< include functions/derive_predictions.py >}}
+```
+
+## emg_processing
+```{python}
+{{< include functions/emg_processing.py >}}
+```
+
+## helpers
+```{python}
+{{< include functions/helpers.py >}}
+```
+
+## hillmodel
+```{python}
+{{< include functions/hillmodel.py >}}
+```
+
+## preprocess
+```{python}
+{{< include functions/preprocess.py >}}
+```
+
+## signal_processing
+```{python}
+{{< include functions/signal_processing.py >}}
+```
+
+## stats
+```{python}
+{{< include functions/stats.py >}}
+```
+
+## trajectories
+```{python}
+{{< include functions/trajectories.py >}}
+```

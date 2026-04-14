@@ -1,0 +1,129 @@
+% This is a combination of Pandoc templating and LaTeX
+% Pandoc templating https://pandoc.org/MANUAL.html#templates
+% See the README for help
+\begin{titlepage}
+
+\raggedright
+% Title and subtitle
+{\sffamily\LARGE\bfseries\nohyphens{$title$}}\\[2\baselineskip]
+$if(subtitle)${\sffamily\Large\textit{$subtitle$}}\\[2\baselineskip]$endif$
+
+% Authors
+% This hairy bit of code is just to get "and" between the last 2 authors.
+$if(by-author/allbutlast)$
+	$for(by-author/allbutlast)$
+    \mbox{\normalsize{$by-author.name.literal$}$for(by-author.affiliations/allbutlast)$\textsuperscript{$it.number$,}$endfor$$for(by-author.affiliations/last)$\textsuperscript{$it.number$}$endfor$$if(by-author.attributes.corresponding)$$if(by-author.affiliations)$\textsuperscript{,}$endif${\textsuperscript{ \Letter}}$endif$$if(by-author.orcid)$ \orcidlink{$by-author.orcid$}$endif$,}
+  % Below is nice format,  but then it gives spaces where I do not want it!
+	%  	\mbox{{\normalsize{$by-author.name.literal$}}
+	% 	$for(by-author.affiliations/allbutlast)$
+	% 		\textsuperscript{$it.number$,}
+	% 	$endfor$
+	% 	$for(by-author.affiliations/last)$
+	% 	  \textsuperscript{$it.number$}
+	% 	$endfor$
+	% 	$if(by-author.attributes.corresponding)$
+	% 	  $if(by-author.affiliations)$
+	% 	    \textsuperscript{,}
+	% 	  $endif${\textsuperscript{ \Letter}}
+	% 	$endif$
+	% 	$if(by-author.orcid)$
+	% 	  \orcidlink{$by-author.orcid$}
+	% 	$endif$}
+	$endfor$
+	$for(by-author/last)$
+		\mbox{and \normalsize{$by-author.name.literal$}$for(by-author.affiliations/allbutlast)$\textsuperscript{$it.number$,}$endfor$$for(by-author.affiliations/last)$\textsuperscript{$it.number$}$endfor$$if(by-author.attributes.corresponding)$$if(by-author.affiliations)$\textsuperscript{,}$endif$\textsuperscript{ \Letter}$endif$$if(by-author.orcid)$ \orcidlink{$by-author.orcid$}$endif$}
+		% Below is nice format,  but then it gives spaces where I do not want it!
+		% \mbox{
+		%  and \normalsize{$by-author.name.literal$}
+		% $for(by-author.affiliations/allbutlast)$
+		% 	\textsuperscript{$it.number$,}
+		% $endfor$
+		% $for(by-author.affiliations/last)$
+		%   \textsuperscript{$it.number$}
+		% $endfor$
+		% $if(by-author.attributes.corresponding)$
+		%   $if(by-author.affiliations)$
+		%     \textsuperscript{,}
+		%   $endif$
+		%   \textsuperscript{ \Letter}
+		% $endif$
+		% $if(by-author.orcid)$
+		%   \orcidlink{$by-author.orcid$}, 
+		% $endif$
+		% }
+	$endfor$
+$else$
+	$for(by-author/last)$
+    \mbox{\normalsize{$by-author.name.literal$}$for(by-author.affiliations/allbutlast)$\textsuperscript{$it.number$,}$endfor$$for(by-author.affiliations/last)$\textsuperscript{$it.number$}$endfor$$if(by-author.attributes.corresponding)$$if(by-author.affiliations)$\textsuperscript{,}$endif${\textsuperscript{ \Letter}}$endif$$if(by-author.orcid)$\orcidlink{$by-author.orcid$}$endif$
+		}
+		% Below is nice format,  but then it gives spaces where I do not want it!
+		% \mbox{
+		%   \normalsize{$by-author.name.literal$}
+		%   $for(by-author.affiliations/allbutlast)$
+		% 	  \textsuperscript{$it.number$,}
+		%   $endfor$
+		%   $for(by-author.affiliations/last)$
+		%     \textsuperscript{$it.number$}
+		%   $endfor$
+		%   $if(by-author.attributes.corresponding)$
+		%     $if(by-author.affiliations)$
+		%       \textsuperscript{,}
+		%     $endif$
+		%     {\textsuperscript{ \Letter}}
+		%   $endif$
+		%   $if(by-author.orcid)$
+		%     \orcidlink{$by-author.orcid$}
+		%   $endif$
+		% }
+	$endfor$
+$endif$
+
+\vspace{0.5\baselineskip}
+
+%%%%%% Affiliations & Corresponding author
+$if(author)$
+  \begin{enumerate}[label={~\arabic*}, leftmargin=*, align=left, labelsep=0em, nosep]
+  $for(by-affiliation)$%
+  
+    $if(by-affiliation.name)$
+      $if(by-affiliation.department)$
+        \item[\small\textsuperscript{$it.number$}]
+        \small{$it.department$,}
+        \small{$it.name$}
+      $else$
+        \item[\small\textsuperscript{$it.number$}]
+        \small{$it.name$}
+      $endif$
+    $endif$
+  $endfor$
+  \vspace{0.5\baselineskip}
+  
+  $for(by-author)$
+    $if(by-author.attributes.corresponding)$
+      \item[\small\textsuperscript{\Letter}]
+      \small{Corresponding author:~$by-author.name.literal$ (\href{mailto:$by-author.email$}{$by-author.email$})}
+    $endif$
+  $endfor$
+  \end{enumerate}
+$endif$
+
+\vspace{1\baselineskip}
+
+%%%%%% Project website
+$if(projectsite)$
+  \small{Access the code and full analysis notebook at \url{$projectsite$}}
+$endif$
+
+\vspace{1\baselineskip}
+
+%%%%%% Abstract
+$if(abstract)$
+  \begin{abstract}
+    \justifying
+    $abstract$
+  \end{abstract}
+$endif$
+
+\vfill
+\vspace{0.1\textheight}
+\end{titlepage}
